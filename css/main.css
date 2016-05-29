@@ -1,10 +1,58 @@
-nav > ul > li {
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+
+/*Navigation Section*/
+nav > div > ul > li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 1em;
+	margin: .7em;
 	padding: 0;
 }
 
+.top-navigation {
+	background-color: #fff;
+	display: flex;
+}
+
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+	padding: 0rem 1rem;
+}
+
 .nav-links {
+	float: right;
+}
+
+.nav-links > li > a {
 	text-decoration: none;
+}
+
+.active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+#logo {
+	max-width: 1.5em;
+	margin-top: 1em;
+}
+
+
+/*
+.main-nav {
+	display: flex;
+	align-items: baseline;
 }
