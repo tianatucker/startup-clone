@@ -1,0 +1,10 @@
+nav > ul > li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 1em;
+	padding: 0;
+}
+
+.nav-links {
+	text-decoration: none;
+}
