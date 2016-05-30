@@ -17,6 +17,9 @@ body {
 .top-navigation {
 	background-color: #fff;
 	display: flex;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
