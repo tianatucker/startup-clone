@@ -98,23 +98,29 @@ button:hover {
 }
 
 /*Icons Sections*/
-.icons {
-	list-style-type: none;
-
+.value .devices {
+	width: 32.8%;
+	display: inline-block;
 }
 
-.icons > li > img {
+.devices img {
 	max-height: 8rem;
 	display: inline;
 }
 
 .value h2, .value h3 {
-	margin-top: 7rem;
 	color: #1d1e21;
 	text-align: center;
-	font-weight: 300;
 }
 
 .value h2 {
 	font-size: 2.75rem;
+	margin-top: 7rem;
+	font-weight: 300;
+}
+
+.value h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2.5rem 0px 1rem;
 }
