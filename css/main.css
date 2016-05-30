@@ -105,6 +105,7 @@ button:hover {
 .value .devices {
 	width: 32.8%;
 	display: inline-block;
+	padding-bottom: 5rem;
 }
 
 .devices img {
@@ -127,4 +128,51 @@ button:hover {
 	font-weight: 400;
 	font-size: 1.5rem;
 	margin: 2.5rem 0px 1rem;
+}
+
+/*Footer*/
+
+.join-us {
+	text-align: center;
+	padding-bottom: 9rem;
+	overflow: auto;
+}
+
+.join-us h4 {
+	font-weight: 400;
+	color: #1d1e21;
+}
+
+.join-us hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.311rem 0;
+}
+
+.join-us p {
+	font-size: .8rem;
+	font-weight: 300;
+	color: #838994;
+}
+
+.social {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+	display: inline-block;
+}
+
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
 }
